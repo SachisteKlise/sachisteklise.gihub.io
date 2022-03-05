@@ -1,5 +1,88 @@
+<!DOCTYPE html>
+<!-- Copyright (C) 2022 Sachiste Klise.-->
 <html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+        <meta charset="UTF-8">
+        <!--link rel='shortcut icon' type='image/x-icon' href='img/marabu.ico'/-->
+        <!-- link href="wash/css/wash.css" rel="stylesheet" -->
+        <title>TPT 2022</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Roboto:wght@100;500&display=swap" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.0.0/knockout-min.js"></script>
+        <script language="javascript" src="model.js"></script>
+        <script language="javascript">
+            window.onload = function(e){
+                console.log("Loaded ", MODEL, ko);
+
+                Object.values( MODEL.users ).forEach( function( u ) {
+                    u.expanded = ko.observable( false );
+                    u.toggle = function( ) {
+                        u.expanded( !u.expanded() );
+                    };
+                });
+
+                ko.applyBindings( MODEL );
+            };
+        </script>
+    </head>
 	<body>
-		<h1>Test</h1>
+        <div style="display: flex; 
+                    position: sticky; top: 0;
+                    background-color: #FFFFFF;
+                    padding: 1vh;
+                    box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.06),
+                                0 4px 5px 0 rgba(0, 0, 0, 0.06),
+                                0 1px 10px 0 rgba(0, 0, 0, 0.08);">
+            <div style="flex: 0 0 auto; transform: rotate(-15deg); color: #021122; font-weight: bold; font-size: 40px">TPT22</div>
+            <div style="flex: 1 1 auto; padding-left: 4vw; font-family: 'Roboto Condensed'; align-self: center" data-bind="text: gamesPlayed + '/' + gamesToPlay"></div>
+        </div>
+        <div style='padding: 1vw'>
+        <table style="width: 100%; border-collapse: collapse;" data-bind="foreach: {data: Object.values(users), as: 'user'}">
+            <tr class="user-row" data-bind="click: user.toggle">
+                <td class="uid" data-bind="text: user.id"></td>
+                <td class="points" data-bind="text: user.points"></td>
+                <td class="score" data-bind="text: user.games"></td>
+                <td class="score" data-bind="text: user.score +'/' + user.turns"></td>
+                <td class="score" data-bind="text: user.turns === 0 ? 0 : Math.round( user.score / + user.turns * 10 ) / 10"></td>
+                <td class="score" data-bind="text: ' '"></td>
+                <td class="score" style="width: 100%">&nbsp;</td>
+            </tr>
+            <tr style="border-bottom: 1px solid #DFDFDF; margin-bottom: 0.4vh" data-bind="click: user.toggle">
+                <td colspan="7" style="padding: 6px;" data-bind="visible: user.expanded()">
+                    <div style="display: flex; flex-direction: row; flex-wrap: wrap">
+                        <!-- ko foreach: { data : Object.values( user.competitions ), as : 'comp' } -->
+                        <div class="comp">
+                            <div class="id" style="font-weiht: bold" data-bind="text: comp.id"></div>
+                            <div class="rounds" data-bind="visible : comp.r1.points !== ''">
+                                <div class='round' style="border-bottom: 1px solid #DFDFDF">                                    
+                                    <!-- ko if: comp.r1.points !== '' -->
+                                    <div class="points" data-bind="text: comp.r1.points"></div>
+                                    <div class="score" data-bind="text: comp.r1.finalScore + ':' + comp.r1.compFinalScore"></div>
+                                    <div class="score" data-bind="text: comp.r1.score + '/' + comp.r1.turns"></div>
+                                    <div class="score" data-bind="text: Math.round( comp.r1.score / comp.r1.turns * 10 ) / 10"></div>
+                                    <!-- /ko -->
+                                </div>
+                                <div class='round'>
+                                    <!-- ko if: comp.r2.points !== '' -->
+                                    <div class="points" data-bind="text: comp.r2.points"></div>
+                                    <div class="score" data-bind="text: comp.r2.finalScore + ':' + comp.r2.compFinalScore"></div>
+                                    <div class="score" data-bind="text: comp.r2.score + '/' + comp.r2.rounds"></div>
+                                    <div class="score" data-bind="text: Math.round( comp.r2.score / + comp.r2.turns * 10 ) / 10"></div>
+                                    <!-- /ko -->
+                                    <!-- ko if: comp.r2.points === '' -->
+                                    <div class="points">&nbsp;</div>
+                                    <!-- /ko -->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /ko -->
+                    </div>
+                </td>
+            </tr>
+        </table>
+        </div>
 	</body>
 </html>

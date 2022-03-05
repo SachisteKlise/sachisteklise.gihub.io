@@ -1,0 +1,77 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    padding: 0;
+    margin: 0;
+}
+
+.user-row {
+    font-size: 32px;
+}
+
+.uid {
+    font-weight: 400;
+    font-size: 32px;    
+}
+
+.score {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+td.points {
+    padding-left: 2vw;
+}
+
+td.score {
+    font-size: 26px;
+    padding-left: 1.4vw;
+}
+
+.points {
+    font-weight: 400;
+}
+
+.comp {
+    flex: 0 0 auto;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    /*border: 1px solid #DADADA;*/
+    box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.06),
+                0 4px 5px 0 rgba(0, 0, 0, 0.06),
+                0 1px 10px 0 rgba(0, 0, 0, 0.08);
+    margin: 6px;    
+}
+
+.comp .id {
+    font-weight: 300;
+    font-size: 22px;
+    padding: 0.6vw;
+}
+
+.rounds {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+}
+
+.round {
+    display: flex;
+    flex: 1 1 auto;
+    align-self: center;
+    flex-direction: row;
+    min-height: 1.2em;
+}
+
+.round div {
+    padding-left: 0.5vw;
+    align-self: center;
+}
+
+
+.round .score {
+    font-size: 13px;
+}
