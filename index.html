@@ -61,6 +61,7 @@
                                     <!-- ko if: comp.r1.points !== '' -->
                                     <div class="points" data-bind="text: comp.r1.points"></div>
                                     <div class="score" data-bind="text: comp.r1.finalScore + ':' + comp.r1.compFinalScore"></div>
+                                    <div class="score" style="flex: 1 1 auto" >&nbsp;</div>
                                     <div class="score" data-bind="text: comp.r1.score + '/' + comp.r1.turns"></div>
                                     <div class="score" data-bind="text: Math.round( comp.r1.score / comp.r1.turns * 10 ) / 10"></div>
                                     <!-- /ko -->
@@ -69,9 +70,10 @@
                                     <!-- ko if: comp.r2.points !== '' -->
                                     <div class="points" data-bind="text: comp.r2.points"></div>
                                     <div class="score" data-bind="text: comp.r2.finalScore + ':' + comp.r2.compFinalScore"></div>
-                                    <div class="score" data-bind="text: comp.r2.score + '/' + comp.r2.rounds"></div>
+                                    <div class="score" style="flex: 1 1 auto" >&nbsp;</div>
+                                    <div class="score" data-bind="text: comp.r2.score + '/' + comp.r2.turns"></div>
                                     <div class="score" data-bind="text: Math.round( comp.r2.score / + comp.r2.turns * 10 ) / 10"></div>
-                                    <!-- /ko -->
+                                    <!-- /ko-->
                                     <!-- ko if: comp.r2.points === '' -->
                                     <div class="points">&nbsp;</div>
                                     <!-- /ko -->

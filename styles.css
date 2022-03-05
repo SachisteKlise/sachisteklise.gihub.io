@@ -61,7 +61,7 @@ td.score {
 .round {
     display: flex;
     flex: 1 1 auto;
-    align-self: center;
+    align-self: stretch;
     flex-direction: row;
     min-height: 1.2em;
 }
