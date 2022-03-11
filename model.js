@@ -1,5 +1,5 @@
 const MODEL = {
-    "gamesPlayed": 11,
+    "gamesPlayed": 12,
     "gamesToPlay": 240,
     "users": {
         "MF": {
@@ -1705,6 +1705,289 @@ const MODEL = {
                 }
             }
         },
+        "ZS": {
+            "id": "ZS",
+            "points": 2,
+            "games": 2,
+            "score": 30,
+            "turns": 26,
+            "competitions": {
+                "AM": {
+                    "id": "AM",
+                    "r1": {
+                        "points": "",
+                        "finalScore": "",
+                        "compFinalScore": "",
+                        "score": "",
+                        "rounds": ""
+                    },
+                    "r2": {
+                        "points": "",
+                        "finalScore": "",
+                        "compFinalScore": "",
+                        "score": "",
+                        "rounds": ""
+                    }
+                },
+                "JD": {
+                    "id": "JD",
+                    "r1": {
+                        "points": "",
+                        "finalScore": "",
+                        "compFinalScore": "",
+                        "score": "",
+                        "rounds": ""
+                    },
+                    "r2": {
+                        "points": "",
+                        "finalScore": "",
+                        "compFinalScore": "",
+                        "score": "",
+                        "rounds": ""
+                    }
+                },
+                "JH": {
+                    "id": "JH",
+                    "r1": {
+                        "points": "",
+                        "finalScore": "",
+                        "compFinalScore": "",
+                        "score": "",
+                        "rounds": ""
+                    },
+                    "r2": {
+                        "points": "",
+                        "finalScore": "",
+                        "compFinalScore": "",
+                        "score": "",
+                        "rounds": ""
+                    }
+                },
+                "JK": {
+                    "id": "JK",
+                    "r1": {
+                        "points": "",
+                        "finalScore": "",
+                        "compFinalScore": "",
+                        "score": "",
+                        "rounds": ""
+                    },
+                    "r2": {
+                        "points": "",
+                        "finalScore": "",
+                        "compFinalScore": "",
+                        "score": "",
+                        "rounds": ""
+                    }
+                },
+                "JP": {
+                    "id": "JP",
+                    "r1": {
+                        "points": "",
+                        "finalScore": "",
+                        "compFinalScore": "",
+                        "score": "",
+                        "rounds": ""
+                    },
+                    "r2": {
+                        "points": "",
+                        "finalScore": "",
+                        "compFinalScore": "",
+                        "score": "",
+                        "rounds": ""
+                    }
+                },
+                "JS": {
+                    "id": "JS",
+                    "r1": {
+                        "points": 2,
+                        "finalScore": 100,
+                        "compFinalScore": 100,
+                        "score": 15,
+                        "rounds": "",
+                        "turns": 10
+                    },
+                    "r2": {
+                        "points": "",
+                        "finalScore": "",
+                        "compFinalScore": "",
+                        "score": "",
+                        "rounds": ""
+                    }
+                },
+                "MČ": {
+                    "id": "MČ",
+                    "r1": {
+                        "points": "",
+                        "finalScore": "",
+                        "compFinalScore": "",
+                        "score": "",
+                        "rounds": ""
+                    },
+                    "r2": {
+                        "points": "",
+                        "finalScore": "",
+                        "compFinalScore": "",
+                        "score": "",
+                        "rounds": ""
+                    }
+                },
+                "MF": {
+                    "id": "MF",
+                    "r1": {
+                        "points": 0,
+                        "finalScore": 68,
+                        "compFinalScore": 100,
+                        "score": 15,
+                        "rounds": "",
+                        "turns": 16
+                    },
+                    "r2": {
+                        "points": "",
+                        "finalScore": "",
+                        "compFinalScore": "",
+                        "score": "",
+                        "rounds": ""
+                    }
+                },
+                "PG": {
+                    "id": "PG",
+                    "r1": {
+                        "points": "",
+                        "finalScore": "",
+                        "compFinalScore": "",
+                        "score": "",
+                        "rounds": ""
+                    },
+                    "r2": {
+                        "points": "",
+                        "finalScore": "",
+                        "compFinalScore": "",
+                        "score": "",
+                        "rounds": ""
+                    }
+                },
+                "pH7": {
+                    "id": "pH7",
+                    "r1": {
+                        "points": "",
+                        "finalScore": "",
+                        "compFinalScore": "",
+                        "score": "",
+                        "rounds": ""
+                    },
+                    "r2": {
+                        "points": "",
+                        "finalScore": "",
+                        "compFinalScore": "",
+                        "score": "",
+                        "rounds": ""
+                    }
+                },
+                "PV": {
+                    "id": "PV",
+                    "r1": {
+                        "points": "",
+                        "finalScore": "",
+                        "compFinalScore": "",
+                        "score": "",
+                        "rounds": ""
+                    },
+                    "r2": {
+                        "points": "",
+                        "finalScore": "",
+                        "compFinalScore": "",
+                        "score": "",
+                        "rounds": ""
+                    }
+                },
+                "RZ": {
+                    "id": "RZ",
+                    "r1": {
+                        "points": "",
+                        "finalScore": "",
+                        "compFinalScore": "",
+                        "score": "",
+                        "rounds": ""
+                    },
+                    "r2": {
+                        "points": "",
+                        "finalScore": "",
+                        "compFinalScore": "",
+                        "score": "",
+                        "rounds": ""
+                    }
+                },
+                "ST": {
+                    "id": "ST",
+                    "r1": {
+                        "points": "",
+                        "finalScore": "",
+                        "compFinalScore": "",
+                        "score": "",
+                        "rounds": ""
+                    },
+                    "r2": {
+                        "points": "",
+                        "finalScore": "",
+                        "compFinalScore": "",
+                        "score": "",
+                        "rounds": ""
+                    }
+                },
+                "TK": {
+                    "id": "TK",
+                    "r1": {
+                        "points": "",
+                        "finalScore": "",
+                        "compFinalScore": "",
+                        "score": "",
+                        "rounds": ""
+                    },
+                    "r2": {
+                        "points": "",
+                        "finalScore": "",
+                        "compFinalScore": "",
+                        "score": "",
+                        "rounds": ""
+                    }
+                },
+                "ZH": {
+                    "id": "ZH",
+                    "r1": {
+                        "points": "",
+                        "finalScore": "",
+                        "compFinalScore": "",
+                        "score": "",
+                        "rounds": ""
+                    },
+                    "r2": {
+                        "points": "",
+                        "finalScore": "",
+                        "compFinalScore": "",
+                        "score": "",
+                        "rounds": ""
+                    }
+                },
+                "ZS": {
+                    "id": "ZS",
+                    "r1": {
+                        "points": "",
+                        "finalScore": "",
+                        "compFinalScore": "",
+                        "score": "",
+                        "rounds": ""
+                    },
+                    "r2": {
+                        "points": "",
+                        "finalScore": "",
+                        "compFinalScore": "",
+                        "score": "",
+                        "rounds": ""
+                    }
+                }
+            }
+        },
         "AM": {
             "id": "AM",
             "points": 0,
@@ -2271,9 +2554,9 @@ const MODEL = {
         "JS": {
             "id": "JS",
             "points": 0,
-            "games": 3,
-            "score": 224,
-            "turns": 14,
+            "games": 4,
+            "score": 324,
+            "turns": 24,
             "competitions": {
                 "AM": {
                     "id": "AM",
@@ -2536,11 +2819,12 @@ const MODEL = {
                 "ZS": {
                     "id": "ZS",
                     "r1": {
-                        "points": "",
-                        "finalScore": "",
-                        "compFinalScore": "",
-                        "score": "",
-                        "rounds": ""
+                        "points": 0,
+                        "finalScore": 100,
+                        "compFinalScore": 100,
+                        "score": 100,
+                        "rounds": "",
+                        "turns": 10
                     },
                     "r2": {
                         "points": "",
@@ -4091,288 +4375,6 @@ const MODEL = {
                         "compFinalScore": "",
                         "score": "",
                         "rounds": ""
-                    },
-                    "r2": {
-                        "points": "",
-                        "finalScore": "",
-                        "compFinalScore": "",
-                        "score": "",
-                        "rounds": ""
-                    }
-                },
-                "PG": {
-                    "id": "PG",
-                    "r1": {
-                        "points": "",
-                        "finalScore": "",
-                        "compFinalScore": "",
-                        "score": "",
-                        "rounds": ""
-                    },
-                    "r2": {
-                        "points": "",
-                        "finalScore": "",
-                        "compFinalScore": "",
-                        "score": "",
-                        "rounds": ""
-                    }
-                },
-                "pH7": {
-                    "id": "pH7",
-                    "r1": {
-                        "points": "",
-                        "finalScore": "",
-                        "compFinalScore": "",
-                        "score": "",
-                        "rounds": ""
-                    },
-                    "r2": {
-                        "points": "",
-                        "finalScore": "",
-                        "compFinalScore": "",
-                        "score": "",
-                        "rounds": ""
-                    }
-                },
-                "PV": {
-                    "id": "PV",
-                    "r1": {
-                        "points": "",
-                        "finalScore": "",
-                        "compFinalScore": "",
-                        "score": "",
-                        "rounds": ""
-                    },
-                    "r2": {
-                        "points": "",
-                        "finalScore": "",
-                        "compFinalScore": "",
-                        "score": "",
-                        "rounds": ""
-                    }
-                },
-                "RZ": {
-                    "id": "RZ",
-                    "r1": {
-                        "points": "",
-                        "finalScore": "",
-                        "compFinalScore": "",
-                        "score": "",
-                        "rounds": ""
-                    },
-                    "r2": {
-                        "points": "",
-                        "finalScore": "",
-                        "compFinalScore": "",
-                        "score": "",
-                        "rounds": ""
-                    }
-                },
-                "ST": {
-                    "id": "ST",
-                    "r1": {
-                        "points": "",
-                        "finalScore": "",
-                        "compFinalScore": "",
-                        "score": "",
-                        "rounds": ""
-                    },
-                    "r2": {
-                        "points": "",
-                        "finalScore": "",
-                        "compFinalScore": "",
-                        "score": "",
-                        "rounds": ""
-                    }
-                },
-                "TK": {
-                    "id": "TK",
-                    "r1": {
-                        "points": "",
-                        "finalScore": "",
-                        "compFinalScore": "",
-                        "score": "",
-                        "rounds": ""
-                    },
-                    "r2": {
-                        "points": "",
-                        "finalScore": "",
-                        "compFinalScore": "",
-                        "score": "",
-                        "rounds": ""
-                    }
-                },
-                "ZH": {
-                    "id": "ZH",
-                    "r1": {
-                        "points": "",
-                        "finalScore": "",
-                        "compFinalScore": "",
-                        "score": "",
-                        "rounds": ""
-                    },
-                    "r2": {
-                        "points": "",
-                        "finalScore": "",
-                        "compFinalScore": "",
-                        "score": "",
-                        "rounds": ""
-                    }
-                },
-                "ZS": {
-                    "id": "ZS",
-                    "r1": {
-                        "points": "",
-                        "finalScore": "",
-                        "compFinalScore": "",
-                        "score": "",
-                        "rounds": ""
-                    },
-                    "r2": {
-                        "points": "",
-                        "finalScore": "",
-                        "compFinalScore": "",
-                        "score": "",
-                        "rounds": ""
-                    }
-                }
-            }
-        },
-        "ZS": {
-            "id": "ZS",
-            "points": 0,
-            "games": 1,
-            "score": 15,
-            "turns": 16,
-            "competitions": {
-                "AM": {
-                    "id": "AM",
-                    "r1": {
-                        "points": "",
-                        "finalScore": "",
-                        "compFinalScore": "",
-                        "score": "",
-                        "rounds": ""
-                    },
-                    "r2": {
-                        "points": "",
-                        "finalScore": "",
-                        "compFinalScore": "",
-                        "score": "",
-                        "rounds": ""
-                    }
-                },
-                "JD": {
-                    "id": "JD",
-                    "r1": {
-                        "points": "",
-                        "finalScore": "",
-                        "compFinalScore": "",
-                        "score": "",
-                        "rounds": ""
-                    },
-                    "r2": {
-                        "points": "",
-                        "finalScore": "",
-                        "compFinalScore": "",
-                        "score": "",
-                        "rounds": ""
-                    }
-                },
-                "JH": {
-                    "id": "JH",
-                    "r1": {
-                        "points": "",
-                        "finalScore": "",
-                        "compFinalScore": "",
-                        "score": "",
-                        "rounds": ""
-                    },
-                    "r2": {
-                        "points": "",
-                        "finalScore": "",
-                        "compFinalScore": "",
-                        "score": "",
-                        "rounds": ""
-                    }
-                },
-                "JK": {
-                    "id": "JK",
-                    "r1": {
-                        "points": "",
-                        "finalScore": "",
-                        "compFinalScore": "",
-                        "score": "",
-                        "rounds": ""
-                    },
-                    "r2": {
-                        "points": "",
-                        "finalScore": "",
-                        "compFinalScore": "",
-                        "score": "",
-                        "rounds": ""
-                    }
-                },
-                "JP": {
-                    "id": "JP",
-                    "r1": {
-                        "points": "",
-                        "finalScore": "",
-                        "compFinalScore": "",
-                        "score": "",
-                        "rounds": ""
-                    },
-                    "r2": {
-                        "points": "",
-                        "finalScore": "",
-                        "compFinalScore": "",
-                        "score": "",
-                        "rounds": ""
-                    }
-                },
-                "JS": {
-                    "id": "JS",
-                    "r1": {
-                        "points": "",
-                        "finalScore": "",
-                        "compFinalScore": "",
-                        "score": "",
-                        "rounds": ""
-                    },
-                    "r2": {
-                        "points": "",
-                        "finalScore": "",
-                        "compFinalScore": "",
-                        "score": "",
-                        "rounds": ""
-                    }
-                },
-                "MČ": {
-                    "id": "MČ",
-                    "r1": {
-                        "points": "",
-                        "finalScore": "",
-                        "compFinalScore": "",
-                        "score": "",
-                        "rounds": ""
-                    },
-                    "r2": {
-                        "points": "",
-                        "finalScore": "",
-                        "compFinalScore": "",
-                        "score": "",
-                        "rounds": ""
-                    }
-                },
-                "MF": {
-                    "id": "MF",
-                    "r1": {
-                        "points": 0,
-                        "finalScore": 68,
-                        "compFinalScore": 100,
-                        "score": 15,
-                        "rounds": "",
-                        "turns": 16
                     },
                     "r2": {
                         "points": "",
