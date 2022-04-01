@@ -1,13 +1,13 @@
 const MODEL = {
-    "gamesPlayed": 31,
+    "gamesPlayed": 32,
     "gamesToPlay": 240,
     "users": {
         "TK": {
             "id": "TK",
-            "points": 10,
-            "games": 7,
-            "score": 534,
-            "turns": 88,
+            "points": 12,
+            "games": 8,
+            "score": 634,
+            "turns": 106,
             "competitions": {
                 "AM": {
                     "id": "AM",
@@ -274,11 +274,12 @@ const MODEL = {
                 "ZS": {
                     "id": "ZS",
                     "r1": {
-                        "points": "",
-                        "finalScore": "",
-                        "compFinalScore": "",
-                        "score": "",
-                        "rounds": ""
+                        "points": 2,
+                        "finalScore": 100,
+                        "compFinalScore": 99,
+                        "score": 100,
+                        "rounds": "",
+                        "turns": 18
                     },
                     "r2": {
                         "points": "",
@@ -3435,9 +3436,9 @@ const MODEL = {
         "ZS": {
             "id": "ZS",
             "points": 1,
-            "games": 2,
-            "score": 30,
-            "turns": 26,
+            "games": 3,
+            "score": 64,
+            "turns": 44,
             "competitions": {
                 "AM": {
                     "id": "AM",
@@ -3665,11 +3666,12 @@ const MODEL = {
                 "TK": {
                     "id": "TK",
                     "r1": {
-                        "points": "",
-                        "finalScore": "",
-                        "compFinalScore": "",
-                        "score": "",
-                        "rounds": ""
+                        "points": 0,
+                        "finalScore": 99,
+                        "compFinalScore": 100,
+                        "score": 34,
+                        "rounds": "",
+                        "turns": 18
                     },
                     "r2": {
                         "points": "",
