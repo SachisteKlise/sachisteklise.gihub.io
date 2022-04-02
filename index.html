@@ -42,16 +42,18 @@
         <div style='padding: 1vw'>
         <table style="width: 100%; border-collapse: collapse;" data-bind="foreach: {data: Object.values(users), as: 'user'}">
             <tr class="user-row" data-bind="click: user.toggle">
+                <td class="rank" data-bind="text: 1 + $index()"></td>
                 <td class="uid" data-bind="text: user.id"></td>
                 <td class="points" data-bind="text: user.points"></td>
                 <td class="score" data-bind="text: user.games"></td>
-                <td class="score" data-bind="text: user.score +'/' + user.turns"></td>
-                <td class="score" data-bind="text: user.turns === 0 ? 0 : Math.round( user.score / + user.turns * 10 ) / 10"></td>
+                <td class="score" data-bind="text: user.score +'/'"></td>                
+                <td class="score turns" data-bind="text: user.turns"></td>
+                <td class="score" data-bind="text: (user.turns === 0 ? 0 : Math.round( user.score / + user.turns * 10 ) / 10).toFixed(1)"></td>
                 <td class="score" data-bind="text: ' '"></td>
                 <td class="score" style="width: 100%">&nbsp;</td>
             </tr>
             <tr style="border-bottom: 1px solid #DFDFDF; margin-bottom: 0.4vh" data-bind="click: user.toggle">
-                <td colspan="7" style="padding: 6px;" data-bind="visible: user.expanded()">
+                <td colspan="8" style="padding: 6px;" data-bind="visible: user.expanded()">
                     <div style="display: flex; flex-direction: row; flex-wrap: wrap">
                         <!-- ko foreach: { data : Object.values( user.competitions ), as : 'comp' } -->
                         <div class="comp">
