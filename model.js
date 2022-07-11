@@ -1,13 +1,13 @@
 const MODEL = {
-    "gamesPlayed": 49,
+    "gamesPlayed": 50,
     "gamesToPlay": 240,
     "users": {
         "TK": {
             "id": "TK",
-            "points": 16,
-            "games": 12,
-            "score": 956,
-            "turns": 180,
+            "points": 18,
+            "games": 13,
+            "score": 1056,
+            "turns": 202,
             "competitions": {
                 "AM": {
                     "id": "AM",
@@ -29,11 +29,12 @@ const MODEL = {
                 "JD": {
                     "id": "JD",
                     "r1": {
-                        "points": "",
-                        "finalScore": "",
-                        "compFinalScore": "",
-                        "score": "",
-                        "rounds": ""
+                        "points": 2,
+                        "finalScore": 100,
+                        "compFinalScore": 64,
+                        "score": 100,
+                        "rounds": "",
+                        "turns": 22
                     },
                     "r2": {
                         "points": "",
@@ -4035,9 +4036,9 @@ const MODEL = {
         "JD": {
             "id": "JD",
             "points": 0,
-            "games": 2,
-            "score": 29,
-            "turns": 26,
+            "games": 3,
+            "score": 51,
+            "turns": 48,
             "competitions": {
                 "AM": {
                     "id": "AM",
@@ -4265,11 +4266,12 @@ const MODEL = {
                 "TK": {
                     "id": "TK",
                     "r1": {
-                        "points": "",
-                        "finalScore": "",
-                        "compFinalScore": "",
-                        "score": "",
-                        "rounds": ""
+                        "points": 0,
+                        "finalScore": 64,
+                        "compFinalScore": 100,
+                        "score": 22,
+                        "rounds": "",
+                        "turns": 22
                     },
                     "r2": {
                         "points": "",
