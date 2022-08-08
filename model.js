@@ -1,13 +1,13 @@
 const MODEL = {
-    "gamesPlayed": 52,
+    "gamesPlayed": 53,
     "gamesToPlay": 240,
     "users": {
         "TK": {
             "id": "TK",
-            "points": 18,
-            "games": 13,
-            "score": 1056,
-            "turns": 202,
+            "points": 20,
+            "games": 14,
+            "score": 1130,
+            "turns": 219,
             "competitions": {
                 "AM": {
                     "id": "AM",
@@ -155,11 +155,12 @@ const MODEL = {
                 "PG": {
                     "id": "PG",
                     "r1": {
-                        "points": "",
-                        "finalScore": "",
-                        "compFinalScore": "",
-                        "score": "",
-                        "rounds": ""
+                        "points": 2,
+                        "finalScore": 100,
+                        "compFinalScore": 90,
+                        "score": 74,
+                        "rounds": "",
+                        "turns": 17
                     },
                     "r2": {
                         "points": "",
@@ -3756,9 +3757,9 @@ const MODEL = {
         "PG": {
             "id": "PG",
             "points": 0,
-            "games": 2,
-            "score": 127,
-            "turns": 18,
+            "games": 3,
+            "score": 217,
+            "turns": 34,
             "competitions": {
                 "AM": {
                     "id": "AM",
@@ -3985,11 +3986,12 @@ const MODEL = {
                 "TK": {
                     "id": "TK",
                     "r1": {
-                        "points": "",
-                        "finalScore": "",
-                        "compFinalScore": "",
-                        "score": "",
-                        "rounds": ""
+                        "points": 0,
+                        "finalScore": 90,
+                        "compFinalScore": 100,
+                        "score": 90,
+                        "rounds": "",
+                        "turns": 16
                     },
                     "r2": {
                         "points": "",
