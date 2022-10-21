@@ -1,5 +1,5 @@
 const MODEL = {
-    "gamesPlayed": 65,
+    "gamesPlayed": 66,
     "gamesToPlay": 240,
     "users": {
         "TK": {
@@ -1470,9 +1470,9 @@ const MODEL = {
         "ST": {
             "id": "ST",
             "points": 11,
-            "games": 9,
-            "score": 782,
-            "turns": 102,
+            "games": 10,
+            "score": 881,
+            "turns": 122,
             "competitions": {
                 "AM": {
                     "id": "AM",
@@ -1502,11 +1502,12 @@ const MODEL = {
                         "turns": 8
                     },
                     "r2": {
-                        "points": "",
-                        "finalScore": "",
-                        "compFinalScore": "",
-                        "score": "",
-                        "rounds": ""
+                        "points": 0,
+                        "finalScore": 99,
+                        "compFinalScore": 100,
+                        "score": 99,
+                        "rounds": "",
+                        "turns": 20
                     }
                 },
                 "JH": {
@@ -3775,10 +3776,10 @@ const MODEL = {
         },
         "JD": {
             "id": "JD",
-            "points": 2,
-            "games": 6,
-            "score": 204,
-            "turns": 132,
+            "points": 4,
+            "games": 7,
+            "score": 228,
+            "turns": 152,
             "competitions": {
                 "AM": {
                     "id": "AM",
@@ -3998,11 +3999,12 @@ const MODEL = {
                         "turns": 7
                     },
                     "r2": {
-                        "points": "",
-                        "finalScore": "",
-                        "compFinalScore": "",
-                        "score": "",
-                        "rounds": ""
+                        "points": 2,
+                        "finalScore": 100,
+                        "compFinalScore": 99,
+                        "score": 24,
+                        "rounds": "",
+                        "turns": 20
                     }
                 },
                 "TK": {
