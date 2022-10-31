@@ -1,5 +1,5 @@
 const MODEL = {
-    "gamesPlayed": 73,
+    "gamesPlayed": 74,
     "gamesToPlay": 240,
     "users": {
         "TK": {
@@ -2351,9 +2351,9 @@ const MODEL = {
         "JK": {
             "id": "JK",
             "points": 10,
-            "games": 6,
-            "score": 313,
-            "turns": 130,
+            "games": 7,
+            "score": 412,
+            "turns": 167,
             "competitions": {
                 "AM": {
                     "id": "AM",
@@ -2375,11 +2375,12 @@ const MODEL = {
                 "JD": {
                     "id": "JD",
                     "r1": {
-                        "points": "",
-                        "finalScore": "",
-                        "compFinalScore": "",
-                        "score": "",
-                        "rounds": ""
+                        "points": 0,
+                        "finalScore": 99,
+                        "compFinalScore": 100,
+                        "score": 99,
+                        "rounds": "",
+                        "turns": 37
                     },
                     "r2": {
                         "points": "",
@@ -2637,10 +2638,10 @@ const MODEL = {
         },
         "JD": {
             "id": "JD",
-            "points": 8,
-            "games": 10,
-            "score": 354,
-            "turns": 228,
+            "points": 10,
+            "games": 11,
+            "score": 421,
+            "turns": 265,
             "competitions": {
                 "AM": {
                     "id": "AM",
@@ -2696,11 +2697,12 @@ const MODEL = {
                 "JK": {
                     "id": "JK",
                     "r1": {
-                        "points": "",
-                        "finalScore": "",
-                        "compFinalScore": "",
-                        "score": "",
-                        "rounds": ""
+                        "points": 2,
+                        "finalScore": 100,
+                        "compFinalScore": 99,
+                        "score": 67,
+                        "rounds": "",
+                        "turns": 37
                     },
                     "r2": {
                         "points": "",
